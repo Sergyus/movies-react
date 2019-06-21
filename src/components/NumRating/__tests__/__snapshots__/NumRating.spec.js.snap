@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumRating component renders correctly NumRating renders correctly 1`] = `
+<span
+  className="numRating"
+>
+  5
+</span>
+`;
+
+exports[`NumRating component renders correctly NumRating without rating renders correctly 1`] = `null`;

@@ -1,0 +1,10 @@
+import 'regenerator-runtime/runtime';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { hot } from 'react-hot-loader/root';
+import App from './App';
+import store from './modules/store';
+
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('app'));
+export default hot(App);

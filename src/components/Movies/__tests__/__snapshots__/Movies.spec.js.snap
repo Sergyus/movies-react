@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies component renders correctly Movies grid renders correctly 1`] = `
+<React.Fragment>
+  <main
+    className="container gridMovieList"
+  >
+    <Grid
+      movies={
+        Array [
+          Object {
+            "title": "first movie",
+          },
+          Object {
+            "title": "second movie",
+          },
+        ]
+      }
+      toggleModal={[Function]}
+    />
+    <a
+      className="toTopBtn"
+      href="#menu"
+      type="button"
+    >
+      ⬆
+    </a>
+  </main>
+</React.Fragment>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component renders correctly Menu renders correctly 1`] = `
+<section
+  className="menu"
+  id="menu"
+>
+  <Memo(ConnectFunction) />
+  <Memo(ConnectFunction) />
+</section>
+`;
